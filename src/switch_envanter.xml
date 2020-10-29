@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <places>
+        <place>T Blok</place>
+        <place>ABCD Blok</place>
+        <place>AKKÖPRÜ</place>
+        <place>GÖLBAŞI</place>
+    </places>
+    <all_switch_models>
+        <switch_models make="HP">
+            <model>C3850-NM-2-10G</model>
+            <model>C3850-NM-4-10G</model>
+        </switch_models>
+        <switch_models make="Cisco">
+            <model>AIR-CT5760</model>
+            <model>AIR-BT1010</model>
+        </switch_models>
+    </all_switch_models>
+
+    <all_module_models>
+        <module_models make="module_marka_1">
+            <model>MDL-XY-RR</model>
+        </module_models>
+        <module_models make="module_marka_2">
+            <model>OUE-XY2-LL</model>
+        </module_models>
+    </all_module_models>
+
+    <all_sfp_models>
+        <sfp_models make="sfp_marka_1">
+            <model>SFP-10G-LR</model>
+            <model>SFP-20G-LR</model>
+        </sfp_models>
+        <sfp_models make="sfp_marka_2">
+            <model>IIE-AA-01</model>
+            <model>IIE-AA-02</model>
+        </sfp_models>
+    </all_sfp_models>
+
+    <switches>
+        <switch>
+            <place>T Blok</place>
+            <location>Sistem Odası</location>
+            <floor>T-02</floor>
+            <name>T-02-219-KAB01-5760-WC</name>
+            <ip>10.215.100.1</ip>
+            <make>Cisco</make>
+            <model>AIR-CT5760</model>
+            <serial_number>ABCDEFG</serial_number>
+            <software_version>03.06.07E</software_version>
+        </switch>
+        <switch>
+            <place>ABCD Blok</place>
+            <location>Kat Switchleri</location>
+            <floor>AG-KD</floor>
+            <name>A-AG-KD-KAB07-24</name>
+            <ip>10.215.100.254</ip>
+            <make>Cisco</make>
+            <model>WS-C3850-24P</model>
+            <serial_number>H1JK0L5N</serial_number>
+            <software_version>7.0(3)I1(2)</software_version>
+        </switch>
+        <switch>
+            <place>T Blok</place>
+            <location>Sistem Odası</location>
+            <floor>T-02</floor>
+            <name>T-02-219-KAB01-5760-WC</name>
+            <ip>10.215.100.1</ip>
+            <make>Cisco</make>
+            <model>AIR-CT5760</model>
+            <serial_number>MN1248KL</serial_number>
+            <software_version>03.06.07E</software_version>
+        </switch>
+
+        <switch>
+            <place>ABCD Blok</place>
+            <location>Kat Switchleri</location>
+            <floor>16-GB</floor>
+            <name>D-16-GB-KAB15-48-S11</name>
+            <ip>10.124.124.222</ip>
+            <make>Cisco</make>
+            <model>WS-C3850-48P</model>
+            <serial_number>AXBXCX</serial_number>
+            <software_version>03.07.02E</software_version>
+        </switch>
+
+        <switch>
+            <place>ABCD Blok</place>
+            <location>Kat Switchleri</location>
+            <floor>16-GB</floor>
+            <name>D-16-GB-KAB15-48-S11</name>
+            <ip>10.124.124.222</ip>
+            <make>Cisco</make>
+            <model>WS-C3850-24P</model>
+            <serial_number>AXBXCX</serial_number>
+            <software_version>03.07.02E</software_version>
+        </switch>
+
+        <switch>
+            <place>ABCD Blok</place>
+            <location>Kat Switchleri</location>
+            <floor>AG-KD</floor>
+            <name>A-AG-KD-KAB07-24</name>
+            <ip>10.215.100.254</ip>
+            <make>Cisco</make>
+            <model>C3850-NM-2-10G</model>
+            <serial_number>BABABA</serial_number>
+            <software_version>BUNELA</software_version>
+        </switch>
+        <switch>
+            <place>ABCD Blok</place>
+            <location>Kat Switchleri</location>
+            <floor>16-GB</floor>
+            <name>D-16-GB-KAB15-48-S11</name>
+            <ip>10.124.124.222</ip>
+            <make>Cisco</make>
+            <model>WS-C3850-24P</model>
+            <serial_number>AXBXC</serial_number>
+            <software_version>03.07.02E</software_version>
+        </switch>
+        <switch>
+            <place>AKKÖPRÜ</place>
+            <location>Kat Switchleri</location>
+            <floor>16-GB</floor>
+            <name>D-AG-GB-KAB08-245</name>
+            <ip>10.10.110.124</ip>
+            <make>HP</make>
+            <model>WS-C3850-24P</model>
+            <serial_number>AX5102</serial_number>
+            <software_version>03.07.02E</software_version>
+        </switch>
+    </switches>
+    <modules>
+        <module>
+            <location>AKKÖPRU-TRAFO</location>
+            <model>C3850-NM-2-10G</model>
+            <serial_number>FOC19463PAS</serial_number>
+            <ip>10.10.110.123</ip>
+        </module>
+        <module>
+            <location>AKKÖPRU-TRAFO</location>
+            <model>C3850-NM-2-10G</model>
+            <serial_number>FOC19463ZAS</serial_number>
+            <ip>10.10.110.123</ip>
+        </module>
+        <module>
+            <location>ABCD Blok-KAT SWİTCHLERİ</location>
+            <model>C3850-NM-4-10G</model>
+            <serial_number>FOC19463BAS</serial_number>
+            <ip>10.124.124.222</ip>
+        </module>
+    </modules>
+    <sfps>
+        <sfp>
+            <location>AKKÖPRÜ-TRAFO</location>
+            <model>SFP-10G-LR</model>
+            <serial_number>SOG1295TTO</serial_number>
+            <ip>10.10.110.123</ip>
+        </sfp>
+        <sfp>
+            <location>ABCD Blok-KAT SWİTCHLERİ</location>
+            <model>SFP-10G-ZR</model>
+            <serial_number>SOG1295TTK</serial_number>
+            <ip>10.124.124.222</ip>
+        </sfp>
+    </sfps>
+    <firewalls>
+        <firewall>
+            <place>ffff</place>
+            <location>iiii</location>
+            <floor>rrrr</floor>
+            <name>eeeee</name>
+            <ip>wwwwww</ip>
+            <make>aaaaaa</make>
+            <model>llll</model>
+            <serial_number>lllll</serial_number>
+            <software_version>bruh</software_version>
+        </firewall>
+    </firewalls>
+</root>
